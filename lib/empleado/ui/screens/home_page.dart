@@ -98,7 +98,10 @@ class _HomePageState extends State<HomePage> {
                             Icons.thumb_up,
                             color: Colors.green,
                           ),
-                          onPressed: null,
+                          onPressed: () {
+                            empleadoBloc.incremendarSalarioSink
+                                .add(snapshot.data[index]);
+                          },
                         ),
                       ),
                       Container(
@@ -107,7 +110,10 @@ class _HomePageState extends State<HomePage> {
                             Icons.thumb_down,
                             color: Colors.red,
                           ),
-                          onPressed: null,
+                          onPressed: () {
+                            empleadoBloc.decrementarSalarioSink
+                                .add(snapshot.data[index]);
+                          },
                         ),
                       ),
                     ],
