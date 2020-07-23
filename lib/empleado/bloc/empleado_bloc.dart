@@ -4,12 +4,12 @@ import 'package:patron_bloc/empleado/model/empleado.dart';
 
 class EmpleadoBloc {
   List<Empleado> _listaEmpleado = [
-    Empleado(1, 'Pedro Jesus Hincapie', 555000.0),
+    Empleado(1, 'Pedro Jesus Hincapie', 1000.0),
     Empleado(2, 'Pedro Jesus Hincapie', 2000.0),
     Empleado(3, 'Pedro Jesus Hincapie', 3000.0),
-    Empleado(4, 'Pedro Jesus Hincapie', 4000.2),
-    Empleado(5, 'Pedro Jesus Hincapie', 4000.2),
-    Empleado(6, 'Pedro Jesus Hincapie', 4000.2),
+    Empleado(4, 'Pedro Jesus Hincapie', 4000.0),
+    Empleado(5, 'Pedro Jesus Hincapie', 5000.0),
+    Empleado(6, 'Pedro Jesus Hincapie', 6000.0),
   ];
 
   //StreamController
