@@ -40,7 +40,7 @@ class _HomePageState extends State<HomePage> {
         ),
       ),
       appBar: AppBar(
-        title: Text('App Empleado'),
+        title: Text('App Empleado BLoC'),
       ),
       body: Container(
         child: StreamBuilder<List<Empleado>>(
